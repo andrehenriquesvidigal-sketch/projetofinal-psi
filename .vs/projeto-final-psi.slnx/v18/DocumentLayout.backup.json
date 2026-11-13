@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{58C8302A-7473-B909-508A-FDC31EBBAECC}|projeto-final-psi\\projeto-final-psi.csproj|c:\\users\\dell\\desktop\\trabalhos\\projeto-final-psi\\projeto-final-psi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{58C8302A-7473-B909-508A-FDC31EBBAECC}|projeto-final-psi\\projeto-final-psi.csproj|solutionrelative:projeto-final-psi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58C8302A-7473-B909-508A-FDC31EBBAECC}|projeto-final-psi\\projeto-final-psi.csproj|c:\\users\\dell\\desktop\\trabalhos\\projeto-final-psi\\projeto-final-psi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58C8302A-7473-B909-508A-FDC31EBBAECC}|projeto-final-psi\\projeto-final-psi.csproj|solutionrelative:projeto-final-psi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,8 +33,21 @@
               "ToolTip": "C:\\Users\\Dell\\Desktop\\trabalhos\\projeto-final-psi\\projeto-final-psi\\Form1.cs [Projeto]",
               "RelativeToolTip": "projeto-final-psi\\Form1.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T16:48:01.381Z",
+              "WhenOpened": "2026-11-13T16:01:19.621Z",
               "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\trabalhos\\projeto-final-psi\\projeto-final-psi\\Form1.cs",
+              "RelativeDocumentMoniker": "projeto-final-psi\\Form1.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\trabalhos\\projeto-final-psi\\projeto-final-psi\\Form1.cs",
+              "RelativeToolTip": "projeto-final-psi\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T16:59:21.199Z",
+              "EditorCaption": ""
             }
           ]
         }
