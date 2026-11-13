@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("projeto-final-psi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3deff5679229671711acb7f017f335f6b651e320")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+91c7a081196e79cb33c2be321f1210e1cf694b1f")]
 [assembly: System.Reflection.AssemblyProductAttribute("projeto-final-psi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("projeto-final-psi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
