@@ -57,9 +57,11 @@ namespace projeto_final_psi
             Hide();
         }
 
-        private void Login_Load(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-
+            iniciar iniciar = new iniciar();
+            iniciar.Show();
+            this.Hide();
         }
     }
 }
