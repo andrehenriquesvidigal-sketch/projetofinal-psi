@@ -52,7 +52,7 @@ namespace projeto_final_psi
 
         private void linkLabelCriarConta_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Form1 registo = new Form1();
+            Criar_conta registo = new Criar_conta();
             registo.Show();
             Hide();
         }

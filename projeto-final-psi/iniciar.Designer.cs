@@ -58,7 +58,7 @@
             // 
             buttonEntrar.BackColor = SystemColors.Highlight;
             buttonEntrar.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            buttonEntrar.Location = new Point(355, 260);
+            buttonEntrar.Location = new Point(355, 255);
             buttonEntrar.Name = "buttonEntrar";
             buttonEntrar.Size = new Size(300, 50);
             buttonEntrar.TabIndex = 2;
@@ -81,12 +81,13 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1055, 573);
+            ClientSize = new Size(1086, 573);
             Controls.Add(labelTitulo);
             Controls.Add(labelSubtitulo);
             Controls.Add(buttonEntrar);
             Controls.Add(buttonCriarConta);
             Name = "iniciar";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Projeto Final PSI";
             Load += iniciar_Load;
             ResumeLayout(false);
