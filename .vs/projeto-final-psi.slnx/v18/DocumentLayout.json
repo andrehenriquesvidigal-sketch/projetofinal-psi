@@ -1,34 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Dell\\Desktop\\trabalhos\\projeto-final-psi\\",
+  "WorkspaceRootPath": "C:\\Users\\laudl\\OneDrive\\Desktop\\trab\\projetofinal-psi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{58C8302A-7473-B909-508A-FDC31EBBAECC}|projeto-final-psi\\projeto-final-psi.csproj|c:\\users\\dell\\desktop\\trabalhos\\projeto-final-psi\\projeto-final-psi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58C8302A-7473-B909-508A-FDC31EBBAECC}|projeto-final-psi\\projeto-final-psi.csproj|solutionrelative:projeto-final-psi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58C8302A-7473-B909-508A-FDC31EBBAECC}|projeto-final-psi\\projeto-final-psi.csproj|c:\\users\\dell\\desktop\\trabalhos\\projeto-final-psi\\projeto-final-psi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{58C8302A-7473-B909-508A-FDC31EBBAECC}|projeto-final-psi\\projeto-final-psi.csproj|solutionrelative:projeto-final-psi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58C8302A-7473-B909-508A-FDC31EBBAECC}|projeto-final-psi\\projeto-final-psi.csproj|c:\\users\\dell\\desktop\\trabalhos\\projeto-final-psi\\projeto-final-psi\\globais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58C8302A-7473-B909-508A-FDC31EBBAECC}|projeto-final-psi\\projeto-final-psi.csproj|solutionrelative:projeto-final-psi\\globais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58C8302A-7473-B909-508A-FDC31EBBAECC}|projeto-final-psi\\projeto-final-psi.csproj|c:\\users\\dell\\desktop\\trabalhos\\projeto-final-psi\\projeto-final-psi\\menordeidadeexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58C8302A-7473-B909-508A-FDC31EBBAECC}|projeto-final-psi\\projeto-final-psi.csproj|solutionrelative:projeto-final-psi\\menordeidadeexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58C8302A-7473-B909-508A-FDC31EBBAECC}|projeto-final-psi\\projeto-final-psi.csproj|c:\\users\\dell\\desktop\\trabalhos\\projeto-final-psi\\projeto-final-psi\\valida\u00E7\u00E3opalavrapasseecxeption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58C8302A-7473-B909-508A-FDC31EBBAECC}|projeto-final-psi\\projeto-final-psi.csproj|solutionrelative:projeto-final-psi\\valida\u00E7\u00E3opalavrapasseecxeption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58C8302A-7473-B909-508A-FDC31EBBAECC}|projeto-final-psi\\projeto-final-psi.csproj|c:\\users\\dell\\desktop\\trabalhos\\projeto-final-psi\\projeto-final-psi\\valida\u00E7\u00E3oemailexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58C8302A-7473-B909-508A-FDC31EBBAECC}|projeto-final-psi\\projeto-final-psi.csproj|solutionrelative:projeto-final-psi\\valida\u00E7\u00E3oemailexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58C8302A-7473-B909-508A-FDC31EBBAECC}|projeto-final-psi\\projeto-final-psi.csproj|c:\\users\\dell\\desktop\\trabalhos\\projeto-final-psi\\projeto-final-psi\\valida\u00E7\u00E3ocamposvaziosexecption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58C8302A-7473-B909-508A-FDC31EBBAECC}|projeto-final-psi\\projeto-final-psi.csproj|solutionrelative:projeto-final-psi\\valida\u00E7\u00E3ocamposvaziosexecption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{58C8302A-7473-B909-508A-FDC31EBBAECC}|projeto-final-psi\\projeto-final-psi.csproj|c:\\users\\laudl\\onedrive\\desktop\\trab\\projetofinal-psi\\projeto-final-psi\\iniciar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{58C8302A-7473-B909-508A-FDC31EBBAECC}|projeto-final-psi\\projeto-final-psi.csproj|solutionrelative:projeto-final-psi\\iniciar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,100 +14,18 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MenorDeIdadeException.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\trabalhos\\projeto-final-psi\\projeto-final-psi\\MenorDeIdadeException.cs",
-              "RelativeDocumentMoniker": "projeto-final-psi\\MenorDeIdadeException.cs",
-              "ToolTip": "C:\\Users\\Dell\\Desktop\\trabalhos\\projeto-final-psi\\projeto-final-psi\\MenorDeIdadeException.cs",
-              "RelativeToolTip": "projeto-final-psi\\MenorDeIdadeException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T17:43:40.288Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Valida\u00E7\u00E3oPalavraPasseEcxeption.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\trabalhos\\projeto-final-psi\\projeto-final-psi\\Valida\u00E7\u00E3oPalavraPasseEcxeption.cs",
-              "RelativeDocumentMoniker": "projeto-final-psi\\Valida\u00E7\u00E3oPalavraPasseEcxeption.cs",
-              "ToolTip": "C:\\Users\\Dell\\Desktop\\trabalhos\\projeto-final-psi\\projeto-final-psi\\Valida\u00E7\u00E3oPalavraPasseEcxeption.cs",
-              "RelativeToolTip": "projeto-final-psi\\Valida\u00E7\u00E3oPalavraPasseEcxeption.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T17:42:56.86Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Valida\u00E7\u00E3oEmailException.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\trabalhos\\projeto-final-psi\\projeto-final-psi\\Valida\u00E7\u00E3oEmailException.cs",
-              "RelativeDocumentMoniker": "projeto-final-psi\\Valida\u00E7\u00E3oEmailException.cs",
-              "ToolTip": "C:\\Users\\Dell\\Desktop\\trabalhos\\projeto-final-psi\\projeto-final-psi\\Valida\u00E7\u00E3oEmailException.cs",
-              "RelativeToolTip": "projeto-final-psi\\Valida\u00E7\u00E3oEmailException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T17:42:03.632Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Valida\u00E7\u00E3oCamposVaziosExecption.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\trabalhos\\projeto-final-psi\\projeto-final-psi\\Valida\u00E7\u00E3oCamposVaziosExecption.cs",
-              "RelativeDocumentMoniker": "projeto-final-psi\\Valida\u00E7\u00E3oCamposVaziosExecption.cs",
-              "ToolTip": "C:\\Users\\Dell\\Desktop\\trabalhos\\projeto-final-psi\\projeto-final-psi\\Valida\u00E7\u00E3oCamposVaziosExecption.cs",
-              "RelativeToolTip": "projeto-final-psi\\Valida\u00E7\u00E3oCamposVaziosExecption.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T17:40:45.503Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Globais.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\trabalhos\\projeto-final-psi\\projeto-final-psi\\Globais.cs",
-              "RelativeDocumentMoniker": "projeto-final-psi\\Globais.cs",
-              "ToolTip": "C:\\Users\\Dell\\Desktop\\trabalhos\\projeto-final-psi\\projeto-final-psi\\Globais.cs",
-              "RelativeToolTip": "projeto-final-psi\\Globais.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T17:11:07.043Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\trabalhos\\projeto-final-psi\\projeto-final-psi\\Form1.cs",
-              "RelativeDocumentMoniker": "projeto-final-psi\\Form1.cs",
-              "ToolTip": "C:\\Users\\Dell\\Desktop\\trabalhos\\projeto-final-psi\\projeto-final-psi\\Form1.cs",
-              "RelativeToolTip": "projeto-final-psi\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAfAAAAAAAAAA==",
+              "Title": "iniciar.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\laudl\\OneDrive\\Desktop\\trab\\projetofinal-psi\\projeto-final-psi\\iniciar.cs",
+              "RelativeDocumentMoniker": "projeto-final-psi\\iniciar.cs",
+              "ToolTip": "C:\\Users\\laudl\\OneDrive\\Desktop\\trab\\projetofinal-psi\\projeto-final-psi\\iniciar.cs [Projeto]",
+              "RelativeToolTip": "projeto-final-psi\\iniciar.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T16:59:21.199Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\trabalhos\\projeto-final-psi\\projeto-final-psi\\Form1.cs",
-              "RelativeDocumentMoniker": "projeto-final-psi\\Form1.cs",
-              "ToolTip": "C:\\Users\\Dell\\Desktop\\trabalhos\\projeto-final-psi\\projeto-final-psi\\Form1.cs [Projeto]",
-              "RelativeToolTip": "projeto-final-psi\\Form1.cs [Projeto]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-10T16:48:01.381Z",
+              "WhenOpened": "2026-11-13T15:53:07.276Z",
               "EditorCaption": " [Projeto]"
             }
           ]
