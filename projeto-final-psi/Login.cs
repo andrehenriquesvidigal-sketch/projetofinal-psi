@@ -30,6 +30,9 @@ namespace projeto_final_psi
                     {
                         Globais.utilizadoratual = i;
                         MessageBox.Show("Login efetuado com sucesso", "Login", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        Biblioteca biblioteca = new Biblioteca();
+                        biblioteca.Show();
+                        Hide();
                         return;
                     }
                 }
