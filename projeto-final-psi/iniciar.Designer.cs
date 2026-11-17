@@ -38,55 +38,69 @@
             // 
             labelTitulo.AutoSize = true;
             labelTitulo.Font = new Font("Segoe UI", 26F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            labelTitulo.ForeColor = Color.FromArgb(103, 193, 245);
             labelTitulo.Location = new Point(300, 120);
             labelTitulo.Name = "labelTitulo";
             labelTitulo.Size = new Size(292, 47);
             labelTitulo.TabIndex = 0;
             labelTitulo.Text = "Projeto Final PSI";
-            // 
+            //
             // labelSubtitulo
-            // 
+            //
             labelSubtitulo.AutoSize = true;
             labelSubtitulo.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            labelSubtitulo.ForeColor = Color.FromArgb(198, 212, 223);
             labelSubtitulo.Location = new Point(355, 190);
             labelSubtitulo.Name = "labelSubtitulo";
             labelSubtitulo.Size = new Size(230, 21);
             labelSubtitulo.TabIndex = 1;
             labelSubtitulo.Text = "Bem-vindo! O que deseja fazer?";
-            // 
+            //
             // buttonEntrar
-            // 
-            buttonEntrar.BackColor = SystemColors.Highlight;
+            //
+            buttonEntrar.BackColor = Color.FromArgb(46, 157, 207);
+            buttonEntrar.FlatAppearance.BorderSize = 0;
+            buttonEntrar.FlatAppearance.MouseOverBackColor = Color.FromArgb(103, 193, 245);
+            buttonEntrar.FlatStyle = FlatStyle.Flat;
             buttonEntrar.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            buttonEntrar.Location = new Point(355, 260);
+            buttonEntrar.ForeColor = Color.White;
+            buttonEntrar.Location = new Point(355, 255);
             buttonEntrar.Name = "buttonEntrar";
             buttonEntrar.Size = new Size(300, 50);
             buttonEntrar.TabIndex = 2;
             buttonEntrar.Text = "Entrar";
             buttonEntrar.UseVisualStyleBackColor = false;
             buttonEntrar.Click += buttonEntrar_Click;
-            // 
+            //
             // buttonCriarConta
-            // 
+            //
+            buttonCriarConta.BackColor = Color.FromArgb(42, 71, 94);
+            buttonCriarConta.FlatAppearance.BorderColor = Color.FromArgb(103, 193, 245);
+            buttonCriarConta.FlatAppearance.BorderSize = 1;
+            buttonCriarConta.FlatAppearance.MouseOverBackColor = Color.FromArgb(60, 95, 120);
+            buttonCriarConta.FlatStyle = FlatStyle.Flat;
             buttonCriarConta.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            buttonCriarConta.ForeColor = Color.FromArgb(198, 212, 223);
             buttonCriarConta.Location = new Point(355, 330);
             buttonCriarConta.Name = "buttonCriarConta";
             buttonCriarConta.Size = new Size(300, 50);
             buttonCriarConta.TabIndex = 3;
             buttonCriarConta.Text = "Criar Conta";
-            buttonCriarConta.UseVisualStyleBackColor = true;
+            buttonCriarConta.UseVisualStyleBackColor = false;
             buttonCriarConta.Click += buttonCriarConta_Click;
-            // 
+            //
             // iniciar
-            // 
+            //
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1055, 573);
+            BackColor = Color.FromArgb(27, 40, 56);
+            ClientSize = new Size(1086, 573);
             Controls.Add(labelTitulo);
             Controls.Add(labelSubtitulo);
             Controls.Add(buttonEntrar);
             Controls.Add(buttonCriarConta);
             Name = "iniciar";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Projeto Final PSI";
             Load += iniciar_Load;
             ResumeLayout(false);

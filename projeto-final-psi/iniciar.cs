@@ -16,7 +16,7 @@
 
         private void buttonCriarConta_Click(object sender, EventArgs e)
         {
-            Form1 registo = new Form1();
+            Criar_conta registo = new Criar_conta();
             registo.Show();
             Hide();
         }
@@ -25,5 +25,7 @@
         {
 
         }
+
+       
     }
 }

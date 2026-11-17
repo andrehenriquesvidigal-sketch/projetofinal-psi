@@ -1,8 +1,8 @@
 namespace projeto_final_psi
 {
-    public partial class Form1 : Form
+    public partial class Criar_conta : Form
     {
-        public Form1()
+        public Criar_conta()
         {
             InitializeComponent();
         }
@@ -66,6 +66,13 @@ namespace projeto_final_psi
             {
                 MessageBox.Show(ex.Message);
             }
+        }
+
+        private void button_sair_Click_1(object sender, EventArgs e)
+        {
+            iniciar menuIniciar = new iniciar();
+            menuIniciar.Show();
+            Hide();
         }
     }
 }
