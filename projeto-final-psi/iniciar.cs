@@ -9,16 +9,12 @@
 
         private void buttonEntrar_Click(object sender, EventArgs e)
         {
-            Login login = new Login();
-            login.Show();
-            Hide();
+            Globais.Navegar(this, new Login());
         }
 
         private void buttonCriarConta_Click(object sender, EventArgs e)
         {
-            Criar_conta registo = new Criar_conta();
-            registo.Show();
-            Hide();
+            Globais.Navegar(this, new Criar_conta());
         }
 
         private void iniciar_Load(object sender, EventArgs e)

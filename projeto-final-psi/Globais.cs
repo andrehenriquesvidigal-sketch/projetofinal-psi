@@ -18,6 +18,19 @@ namespace projeto_final_psi
         public static Utilizador[] utilizadores = new Utilizador[100];
         public static int posiçãovazia = 0;
         public static int utilizadoratual = -1;
+
+        // Abre o form novo e esconde o atual; fecha a aplicação quando o utilizador fecha a última janela visível.
+        public static void Navegar(Form atual, Form novo)
+        {
+            novo.FormClosed += (s, e) =>
+            {
+                foreach (Form f in Application.OpenForms)
+                    if (f.Visible) return;
+                Application.Exit();
+            };
+            novo.Show();
+            atual.Hide();
+        }
     }
 }
 

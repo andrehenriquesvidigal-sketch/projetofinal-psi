@@ -73,9 +73,7 @@ namespace projeto_final_psi
 
         private void buttonVoltar_Click(object sender, EventArgs e)
         {
-            Biblioteca biblioteca = new Biblioteca();
-            biblioteca.Show();
-            Close();
+            Globais.Navegar(this, new menu());
         }
     }
 }
