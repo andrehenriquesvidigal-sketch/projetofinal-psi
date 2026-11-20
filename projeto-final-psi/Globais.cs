@@ -13,6 +13,7 @@ namespace projeto_final_psi
             public string password;
             public string sexo;
             public DateTime dataNascimento;
+            public string fotoCaminho;
         }
         public static Utilizador[] utilizadores = new Utilizador[100];
         public static int posiçãovazia = 0;

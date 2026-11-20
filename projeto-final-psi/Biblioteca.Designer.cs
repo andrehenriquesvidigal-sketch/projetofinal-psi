@@ -32,45 +32,46 @@ namespace projeto_final_psi
             labelBemVindo = new Label();
             listBoxJogos = new ListBox();
             buttonSair = new Button();
+            buttonPerfil = new Button();
             SuspendLayout();
-            //
+            // 
             // labelTitulo
-            //
+            // 
             labelTitulo.AutoSize = true;
             labelTitulo.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             labelTitulo.ForeColor = Color.FromArgb(103, 193, 245);
             labelTitulo.Location = new Point(60, 40);
             labelTitulo.Name = "labelTitulo";
-            labelTitulo.Size = new Size(327, 37);
+            labelTitulo.Size = new Size(267, 37);
             labelTitulo.TabIndex = 0;
             labelTitulo.Text = "Biblioteca de Jogos";
-            //
+            // 
             // labelBemVindo
-            //
+            // 
             labelBemVindo.AutoSize = true;
             labelBemVindo.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
             labelBemVindo.ForeColor = Color.FromArgb(198, 212, 223);
             labelBemVindo.Location = new Point(63, 85);
             labelBemVindo.Name = "labelBemVindo";
-            labelBemVindo.Size = new Size(120, 19);
+            labelBemVindo.Size = new Size(76, 19);
             labelBemVindo.TabIndex = 1;
             labelBemVindo.Text = "Bem-vindo";
-            //
+            // 
             // listBoxJogos
-            //
+            // 
             listBoxJogos.BackColor = Color.FromArgb(42, 71, 94);
             listBoxJogos.BorderStyle = BorderStyle.FixedSingle;
             listBoxJogos.Font = new Font("Segoe UI", 11F, FontStyle.Regular, GraphicsUnit.Point, 0);
             listBoxJogos.ForeColor = Color.White;
             listBoxJogos.FormattingEnabled = true;
-            listBoxJogos.ItemHeight = 25;
             listBoxJogos.Location = new Point(60, 130);
             listBoxJogos.Name = "listBoxJogos";
-            listBoxJogos.Size = new Size(960, 360);
+            listBoxJogos.Size = new Size(960, 342);
             listBoxJogos.TabIndex = 2;
-            //
+            listBoxJogos.SelectedIndexChanged += listBoxJogos_SelectedIndexChanged;
+            // 
             // buttonSair
-            //
+            // 
             buttonSair.BackColor = Color.FromArgb(167, 33, 33);
             buttonSair.FlatAppearance.BorderSize = 0;
             buttonSair.FlatAppearance.MouseOverBackColor = Color.FromArgb(200, 50, 50);
@@ -85,8 +86,24 @@ namespace projeto_final_psi
             buttonSair.UseVisualStyleBackColor = false;
             buttonSair.Click += buttonSair_Click;
             //
-            // Biblioteca
+            // buttonPerfil
             //
+            buttonPerfil.BackColor = Color.FromArgb(60, 75, 90);
+            buttonPerfil.FlatAppearance.BorderSize = 0;
+            buttonPerfil.FlatAppearance.MouseOverBackColor = Color.FromArgb(103, 193, 245);
+            buttonPerfil.FlatStyle = FlatStyle.Flat;
+            buttonPerfil.Font = new Font("Segoe UI", 11F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            buttonPerfil.ForeColor = Color.White;
+            buttonPerfil.Location = new Point(220, 505);
+            buttonPerfil.Name = "buttonPerfil";
+            buttonPerfil.Size = new Size(140, 40);
+            buttonPerfil.TabIndex = 4;
+            buttonPerfil.Text = "Perfil";
+            buttonPerfil.UseVisualStyleBackColor = false;
+            buttonPerfil.Click += buttonPerfil_Click;
+            //
+            // Biblioteca
+            // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(27, 40, 56);
@@ -95,6 +112,7 @@ namespace projeto_final_psi
             Controls.Add(labelBemVindo);
             Controls.Add(listBoxJogos);
             Controls.Add(buttonSair);
+            Controls.Add(buttonPerfil);
             Name = "Biblioteca";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Biblioteca de Jogos";
@@ -109,5 +127,6 @@ namespace projeto_final_psi
         private Label labelBemVindo;
         private ListBox listBoxJogos;
         private Button buttonSair;
+        private Button buttonPerfil;
     }
 }
