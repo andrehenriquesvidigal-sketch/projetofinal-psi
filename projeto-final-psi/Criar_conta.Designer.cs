@@ -60,6 +60,22 @@ namespace projeto_final_psi
             dateTimePicker1 = new DateTimePicker();
             button1 = new Button();
             button_sair = new Button();
+            labelSexo = new Label();
+            comboBoxSexo = new ComboBox();
+            labelSexo.AutoSize = true;
+            labelSexo.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            labelSexo.ForeColor = Color.FromArgb(198, 212, 223);
+            labelSexo.Location = new Point(320, 362);
+            labelSexo.Name = "labelSexo";
+            labelSexo.Text = "Sexo";
+            comboBoxSexo.BackColor = Color.FromArgb(60, 75, 90);
+            comboBoxSexo.DropDownStyle = ComboBoxStyle.DropDownList;
+            comboBoxSexo.FlatStyle = FlatStyle.Flat;
+            comboBoxSexo.ForeColor = Color.White;
+            comboBoxSexo.Items.AddRange(new object[] { "Masculino", "Feminino", "Outro" });
+            comboBoxSexo.Location = new Point(320, 389);
+            comboBoxSexo.Name = "comboBoxSexo";
+            comboBoxSexo.Size = new Size(316, 23);
             SuspendLayout();
             // 
             // label1
@@ -181,7 +197,7 @@ namespace projeto_final_psi
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button1.ForeColor = Color.White;
-            button1.Location = new Point(377, 368);
+            button1.Location = new Point(377, 435);
             button1.Margin = new Padding(3, 2, 3, 2);
             button1.Name = "button1";
             button1.Size = new Size(201, 45);
@@ -211,7 +227,9 @@ namespace projeto_final_psi
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(27, 40, 56);
-            ClientSize = new Size(921, 424);
+            ClientSize = new Size(960, 500);
+            Controls.Add(labelSexo);
+            Controls.Add(comboBoxSexo);
             Controls.Add(button_sair);
             Controls.Add(button1);
             Controls.Add(dateTimePicker1);
@@ -227,7 +245,12 @@ namespace projeto_final_psi
             Margin = new Padding(3, 2, 3, 2);
             Name = "Criar_conta";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Form1";
+            Text = "Criar conta";
+            AcceptButton = button1;
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            MaximizeBox = false;
+            textBox3.PasswordChar = '*';
+            textBox4.PasswordChar = '*';
             ResumeLayout(false);
             PerformLayout();
         }
@@ -248,5 +271,7 @@ namespace projeto_final_psi
         private DateTimePicker dateTimePicker1;
         private Button button1;
         private Button button_sair;
+        private Label labelSexo;
+        private ComboBox comboBoxSexo;
     }
 }

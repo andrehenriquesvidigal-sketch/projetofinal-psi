@@ -30,21 +30,28 @@ namespace projeto_final_psi
                 {
                     throw new ValidaçãoPalavraPasseEcxeption("As palavras passe tem de coincidir");
                 }
-                for (int i = 0; i < Globais.posiçãovazia; i++)
+                if (dateTimePicker1.Value.Date.AddYears(18) > DateTime.Today)
                 {
-                    if (Globais.utilizadores[i].dataNascimento.AddYears(18) >= DateTime.Today)
-                    {
-                        throw new MenorDeIdadeException("Tem que ser maior de idade para prosseguir");
-                    }
+                    throw new MenorDeIdadeException("Tem que ser maior de idade para prosseguir");
+                }
+                if (comboBoxSexo.SelectedIndex < 0)
+                {
+                    throw new ValidaçãoCamposVaziosExecption("Escolha o sexo");
+                }
+                if (Globais.posiçãovazia >= Globais.utilizadores.Length)
+                {
+                    throw new Exception("Já não é possível criar mais contas");
                 }
                 Globais.Utilizador novoUtilizador = new Globais.Utilizador();
                 novoUtilizador.nome = textBox1.Text;
                 novoUtilizador.email = textBox2.Text;
                 novoUtilizador.password = textBox4.Text;
-                novoUtilizador.dataNascimento = dateTimePicker1.Value;
+                novoUtilizador.dataNascimento = dateTimePicker1.Value.Date;
+                novoUtilizador.sexo = comboBoxSexo.Text;
                 Globais.utilizadores[Globais.posiçãovazia] = novoUtilizador;
                 Globais.posiçãovazia++;
-                MessageBox.Show("Registo da conta", "A sua conta foi registada com sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("A sua conta foi registada com sucesso", "Registo da conta", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                Globais.Navegar(this, new Login());
             }
             catch (ValidaçãoCamposVaziosExecption ex)
             {
@@ -70,9 +77,7 @@ namespace projeto_final_psi
 
         private void button_sair_Click_1(object sender, EventArgs e)
         {
-            iniciar menuIniciar = new iniciar();
-            menuIniciar.Show();
-            Hide();
+            Globais.Navegar(this, new iniciar());
         }
     }
 }

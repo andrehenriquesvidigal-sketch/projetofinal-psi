@@ -35,6 +35,19 @@
             textBoxPassword = new TextBox();
             buttonEntrar = new Button();
             linkLabelCriarConta = new LinkLabel();
+            buttonVoltar = new Button();
+            buttonVoltar.BackColor = Color.FromArgb(60, 75, 90);
+            buttonVoltar.FlatAppearance.BorderSize = 0;
+            buttonVoltar.FlatAppearance.MouseOverBackColor = Color.FromArgb(103, 193, 245);
+            buttonVoltar.FlatStyle = FlatStyle.Flat;
+            buttonVoltar.Font = new Font("Segoe UI", 11F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            buttonVoltar.ForeColor = Color.White;
+            buttonVoltar.Location = new Point(20, 20);
+            buttonVoltar.Name = "buttonVoltar";
+            buttonVoltar.Size = new Size(110, 38);
+            buttonVoltar.Text = "← Voltar";
+            buttonVoltar.UseVisualStyleBackColor = false;
+            buttonVoltar.Click += buttonVoltar_Click;
             SuspendLayout();
             // 
             // labelTitulo
@@ -134,6 +147,11 @@
             Controls.Add(textBoxPassword);
             Controls.Add(buttonEntrar);
             Controls.Add(linkLabelCriarConta);
+            Controls.Add(buttonVoltar);
+            AcceptButton = buttonEntrar;
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            MaximizeBox = false;
+            StartPosition = FormStartPosition.CenterScreen;
             Name = "Login";
             Text = "Login";
             Load += Login_Load;
@@ -150,5 +168,6 @@
         private TextBox textBoxPassword;
         private Button buttonEntrar;
         private LinkLabel linkLabelCriarConta;
+        private Button buttonVoltar;
     }
 }

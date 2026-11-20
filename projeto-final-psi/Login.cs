@@ -30,9 +30,7 @@ namespace projeto_final_psi
                     {
                         Globais.utilizadoratual = i;
                         MessageBox.Show("Login efetuado com sucesso", "Login", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        Biblioteca biblioteca = new Biblioteca();
-                        biblioteca.Show();
-                        Hide();
+                        Globais.Navegar(this, new menu());
                         return;
                     }
                 }
@@ -55,14 +53,17 @@ namespace projeto_final_psi
 
         private void linkLabelCriarConta_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Criar_conta registo = new Criar_conta();
-            registo.Show();
-            Hide();
+            Globais.Navegar(this, new Criar_conta());
         }
 
         private void Login_Load(object sender, EventArgs e)
         {
+            textBoxEmail.Focus();
+        }
 
+        private void buttonVoltar_Click(object sender, EventArgs e)
+        {
+            Globais.Navegar(this, new iniciar());
         }
     }
 }
